@@ -37,7 +37,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(117, 27);
+            this.button1.Location = new System.Drawing.Point(88, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(214, 96);
             this.button1.TabIndex = 0;
@@ -48,7 +48,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(117, 160);
+            this.button2.Location = new System.Drawing.Point(88, 145);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(214, 96);
             this.button2.TabIndex = 1;
@@ -59,7 +59,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(117, 418);
+            this.button3.Location = new System.Drawing.Point(88, 403);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(214, 96);
             this.button3.TabIndex = 2;
@@ -70,7 +70,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(117, 292);
+            this.button4.Location = new System.Drawing.Point(88, 277);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(214, 96);
             this.button4.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.BlueViolet;
-            this.ClientSize = new System.Drawing.Size(470, 597);
+            this.ClientSize = new System.Drawing.Size(393, 516);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -95,6 +95,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menü";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

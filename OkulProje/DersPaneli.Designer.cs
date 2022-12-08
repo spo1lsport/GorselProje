@@ -67,7 +67,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(38, 487);
+            this.label3.Location = new System.Drawing.Point(392, 400);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 27);
             this.label3.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(7, 531);
+            this.label4.Location = new System.Drawing.Point(361, 444);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 27);
             this.label4.TabIndex = 3;
@@ -101,7 +101,7 @@
             // 
             // txtkredi
             // 
-            this.txtkredi.Location = new System.Drawing.Point(122, 487);
+            this.txtkredi.Location = new System.Drawing.Point(476, 400);
             this.txtkredi.Name = "txtkredi";
             this.txtkredi.Size = new System.Drawing.Size(216, 26);
             this.txtkredi.TabIndex = 6;
@@ -109,7 +109,7 @@
             // btnkaydet
             // 
             this.btnkaydet.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnkaydet.Location = new System.Drawing.Point(364, 404);
+            this.btnkaydet.Location = new System.Drawing.Point(22, 489);
             this.btnkaydet.Name = "btnkaydet";
             this.btnkaydet.Size = new System.Drawing.Size(121, 31);
             this.btnkaydet.TabIndex = 8;
@@ -120,7 +120,7 @@
             // btnguncelle
             // 
             this.btnguncelle.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnguncelle.Location = new System.Drawing.Point(364, 445);
+            this.btnguncelle.Location = new System.Drawing.Point(22, 530);
             this.btnguncelle.Name = "btnguncelle";
             this.btnguncelle.Size = new System.Drawing.Size(121, 31);
             this.btnguncelle.TabIndex = 9;
@@ -144,7 +144,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(122, 531);
+            this.comboBox1.Location = new System.Drawing.Point(476, 444);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(215, 26);
             this.comboBox1.TabIndex = 13;
@@ -153,7 +153,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(574, 400);
+            this.label5.Location = new System.Drawing.Point(574, 595);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(322, 27);
             this.label5.TabIndex = 14;

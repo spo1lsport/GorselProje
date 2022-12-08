@@ -128,7 +128,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(326, 528);
+            this.button2.Location = new System.Drawing.Point(516, 444);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(86, 40);
             this.button2.TabIndex = 8;
@@ -142,7 +142,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Ogrenci"});
-            this.comboBox1.Location = new System.Drawing.Point(387, 486);
+            this.comboBox1.Location = new System.Drawing.Point(577, 402);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(142, 29);
             this.comboBox1.TabIndex = 9;
@@ -151,7 +151,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(321, 488);
+            this.label4.Location = new System.Drawing.Point(511, 404);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 27);
             this.label4.TabIndex = 10;
@@ -160,7 +160,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(420, 533);
+            this.textBox1.Location = new System.Drawing.Point(610, 449);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(126, 28);
             this.textBox1.TabIndex = 11;
@@ -168,7 +168,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(279, 581);
+            this.button3.Location = new System.Drawing.Point(469, 497);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(133, 36);
             this.button3.TabIndex = 12;

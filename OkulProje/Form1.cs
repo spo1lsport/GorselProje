@@ -40,5 +40,10 @@ namespace GorselProje
             OgrenciDersPanel derspanel = new OgrenciDersPanel();
             derspanel.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
