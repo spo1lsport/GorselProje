@@ -37,5 +37,29 @@ namespace OkulProje
         {
             listele();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem == "Ad Soyad")
+            {
+                var sonuc = from rec in db.ogrenci where rec.ogrenciAdSoyad.Contains(textBox1.Text) select rec;
+                dataGridView1.DataSource = sonuc.ToList();
+            }
+            else if (comboBox1.SelectedItem == "Öğrenci No")
+            {
+                var sonuc = from rec in db.ogrenci where rec.ogrenciNo.Contains(textBox1.Text) select rec;
+                dataGridView1.DataSource = sonuc.ToList();
+            }
+            else if (comboBox1.SelectedItem == "Bolum")
+            {
+                var sonuc = from rec in db.ogrenci where rec.ogrenciBolum.Contains(textBox1.Text) select rec;
+                dataGridView1.DataSource = sonuc.ToList();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listele();
+        }
     }
 }

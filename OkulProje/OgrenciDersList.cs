@@ -59,5 +59,32 @@ namespace OkulProje
 
                            }).ToList();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem == "Ogrenci")
+            {
+                {
+                    var arama = textBox1.Text;
+                    var sonuc = (from x in db.ogrenciDers
+                                 where x.ogrenci.ogrenciAdSoyad.Contains(arama)
+                                 select new
+                                 {
+                                     x.ogrenciDersID,
+                                     x.ders.dersAd,
+                                     x.ogrenci.ogrenciAdSoyad
+
+                                 }).ToList();
+                    dataGridView1.DataSource = sonuc.ToList();
+
+
+                }
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listele();
+        }
     }
 }
