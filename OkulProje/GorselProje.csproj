@@ -58,6 +58,12 @@
     <Compile Include="ders.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="DersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DersList.Designer.cs">
+      <DependentUpon>DersList.cs</DependentUpon>
+    </Compile>
     <Compile Include="DersPaneli.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,12 @@
     <Compile Include="ogrenciDers.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="OgrenciDersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciDersList.Designer.cs">
+      <DependentUpon>OgrenciDersList.cs</DependentUpon>
+    </Compile>
     <Compile Include="OgrenciDersPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,11 +115,23 @@
     <Compile Include="OgrenciPanel.Designer.cs">
       <DependentUpon>OgrenciPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="OgrenciPanelListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciPanelListele.Designer.cs">
+      <DependentUpon>OgrenciPanelListele.cs</DependentUpon>
+    </Compile>
     <Compile Include="OkulYonetim.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="OkulYonetim.Designer.cs">
       <DependentUpon>OkulYonetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OkulYonetimList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OkulYonetimList.Designer.cs">
+      <DependentUpon>OkulYonetimList.cs</DependentUpon>
     </Compile>
     <Compile Include="okulYonetimT.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -123,11 +147,17 @@
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DersList.resx">
+      <DependentUpon>DersList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DersPaneli.resx">
       <DependentUpon>DersPaneli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciDersList.resx">
+      <DependentUpon>OgrenciDersList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OgrenciDersPanel.resx">
       <DependentUpon>OgrenciDersPanel.cs</DependentUpon>
@@ -135,8 +165,14 @@
     <EmbeddedResource Include="OgrenciPanel.resx">
       <DependentUpon>OgrenciPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciPanelListele.resx">
+      <DependentUpon>OgrenciPanelListele.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OkulYonetim.resx">
       <DependentUpon>OkulYonetim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OkulYonetimList.resx">
+      <DependentUpon>OkulYonetimList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
